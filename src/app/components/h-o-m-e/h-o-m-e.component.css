@@ -1,0 +1,95 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  align-items: flex-start;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.whatsAppImage202335At11341 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 1034px;
+  background-image: url('/assets/whatsAppImage202335At11341.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.untitled72 {
+  position: absolute;
+  left: 4.2361%;
+  right: 39.3056%;
+  top: -2.0508%;
+  bottom: 19.8242%;
+  background-image: url('/assets/untitled72.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.iCOMLOGIN {
+  position: absolute;
+  left: 92.2222%;
+  right: 4.6528%;
+  top: 7.3242%;
+  bottom: 88.2813%;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iCOMLOGIN2 {
+  position: absolute;
+  left: 1328px;
+  right: 67px;
+  top: 75px;
+  bottom: 904px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

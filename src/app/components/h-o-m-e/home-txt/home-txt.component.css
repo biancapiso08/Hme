@@ -1,0 +1,95 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  position: absolute;
+  left: -4002px;
+  top: -1759px;
+  width: 285px;
+  height: 256px;
+  align-items: flex-start;
+  outline: solid 1px #0000;
+  outline-offset: -1px;
+}
+.whatsAppImage202334At16481 {
+  z-index: 0;
+  position: absolute;
+  left: -45px;
+  top: -153px;
+  width: 375px;
+  height: 812px;
+  background-image: url('/assets/whatsAppImage202334At16481.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wELCOME {
+  z-index: 0;
+  position: absolute;
+  left: 9.4737%;
+  right: 9.8246%;
+  top: 87.1094%;
+  bottom: -10.9375%;
+  flex-direction: column;
+}
+.textBlock {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Kodchasan, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Kodchasan, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.untitled71 {
+  z-index: 0;
+  position: absolute;
+  left: -23px;
+  top: -194px;
+  width: 317px;
+  height: 523px;
+  background-image: url('/assets/untitled71.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
